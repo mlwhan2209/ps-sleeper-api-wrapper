@@ -1,0 +1,1 @@
+This is my attempt at creating a Powershell API wrapper for Sleeper. What is the purpose of this? IDK, probably to put it on my resume one day I guess. 
