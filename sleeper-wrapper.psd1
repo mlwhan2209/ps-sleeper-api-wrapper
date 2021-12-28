@@ -9,7 +9,7 @@
 @{
 
 # Script module or binary module file associated with this manifest.
-# RootModule = ''
+RootModule = 'sleeper-wrapper.psm1'
 
 # Version number of this module.
 ModuleVersion = '0.0.1'
@@ -18,7 +18,7 @@ ModuleVersion = '0.0.1'
 # CompatiblePSEditions = @()
 
 # ID used to uniquely identify this module
-GUID = 'bc6e46c2-6c8b-4841-8646-d2b21a417776'
+GUID = '79bb0b92-87d6-46b0-af0b-08172c8ee721'
 
 # Author of this module
 Author = 'Matt Whan'
