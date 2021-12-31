@@ -31,11 +31,12 @@ function Get-SleeperAllLeagues {
     }
     Process {
         try {
-            $TempUri = $Uri -replace "\{league_id\}", $LeagueID -replace "\{season\}", $Season
+            $TempUri = $Uri -replace "\{user_id\}", $UserID -replace "\{season\}", $Season
             Invoke-RestMethod -Uri $TempUri -Method Get -ErrorAction Stop
         }
         catch {
             Write-Warning -Message "Unable to find anyone with that userID in that season"
+            Write-Output $TempUri
         }
     }
 }
