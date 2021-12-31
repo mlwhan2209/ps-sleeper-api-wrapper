@@ -1,6 +1,7 @@
 This is my attempt at creating a Powershell API wrapper for Sleeper. 
 
 The purpose is to make interacting with the Sleeper API easier. This module includes functions for: 
+
     'Get-SleeperUser'
     'Get-SleeperAllLeagues'
     'Get-SleeperLeague'
