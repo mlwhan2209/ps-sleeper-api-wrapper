@@ -1,6 +1,4 @@
-This is my attempt at creating a Powershell API wrapper for Sleeper. 
-
-The purpose is to make interacting with the Sleeper API easier.
+This is my attempt at creating a Powershell API wrapper for Sleeper to make interacting with the API easier.
 
 To use the module, from the location you downloaded it run 
 
