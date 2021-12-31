@@ -36,7 +36,6 @@ function Get-SleeperAllLeagues {
         }
         catch {
             Write-Warning -Message "Unable to find anyone with that userID in that season"
-            Write-Output $TempUri
         }
     }
 }
