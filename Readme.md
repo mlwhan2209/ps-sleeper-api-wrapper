@@ -1,1 +1,21 @@
-This is my attempt at creating a Powershell API wrapper for Sleeper. What is the purpose of this? IDK, probably to put it on my resume one day I guess. 
+This is my attempt at creating a Powershell API wrapper for Sleeper. 
+
+The purpose is to make interacting with the Sleeper API easier. This module includes functions for: 
+    'Get-SleeperUser'
+    'Get-SleeperAllLeagues'
+    'Get-SleeperLeague'
+    'Get-SleeperLeagueRosters'
+    'Get-SleeperLeagueUsers'
+    'Get-SleeperLeagueMatchups'
+    'Get-SleeperPlayoffWinnersBracket'
+    'Get-SleeperPlayoffLosersBracket'
+    'Get-SleeperLeagueTransactions'
+    'Get-SleeperLeagueTradedPicks'
+    'Get-SleeperSportInfo' 
+    'Get-SleeperUserDrafts' 
+    'Get-SleeperLeagueDrafts' 
+    'Get-SleeperDraft' 
+    'Get-SleeperDraftPicks' 
+    'Get-SleeperDraftTradedPicks' 
+    'Get-SleeperAllPlayers' 
+    'Get-SleeperTrendingPlayers'
