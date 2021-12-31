@@ -12,7 +12,7 @@ function Get-SleeperUser {
     Process {
         try {
             $TempUri = $Uri -replace "\{username\}", $UserName            
-            Invoke-RestMethod -Uri $TempUri -Method Get -ErrorAction Stop
+            Invoke-RestMethod -Uri $TempUri -Method Get
         }
         catch {
             Write-Warning -Message "Unable to find anyone with that username"
