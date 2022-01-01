@@ -120,7 +120,7 @@ PrivateData = @{
         # LicenseUri = ''
 
         # A URL to the main website for this project.
-        ProjectUri = 'https://github.com/mlwhan2209/ps-sleeper-wrapper'
+        ProjectUri = 'https://github.com/mlwhan2209/sleeper-wrapper'
 
         # A URL to an icon representing this module.
         # IconUri = ''
