@@ -1,9 +1,19 @@
-This is my attempt at creating a Powershell API wrapper for Sleeper to make interacting with the API easier.
+# What Is Sleeper?
 
+Sleeper is a fantasy sports platform that has been growing in popularity. 
+
+You can find Sleeper here: https://sleeper.app/
+
+# What is sleeper-wrapper?
+
+sleeper-wrapper is a Sleeper API Wrapper module for the PowerShell scripting language. sleeper-wrapper allows for PowerShell command and object based access to Sleeper's REST API. You can find documentation on the Sleeper API here: https://docs.sleeper.app/
+
+# Usage 
 To use the module, from the location you downloaded it run 
 
     Import-Module ./sleeper-wrapper
 
+# Features
 This module includes functions for: 
 
     'Get-SleeperUser'
